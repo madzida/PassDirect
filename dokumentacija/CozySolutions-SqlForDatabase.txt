@@ -1,0 +1,83 @@
+INSERT INTO train_route("id","departureTime","arrivalTime","trainId","dates")
+VALUES (1,'Mon Dec 13 2021 06:05:00','Mon Dec 13 2021 15:55:00',100, 
+ARRAY['Wed Jan 12 2022 17:05:00'::DATE, 'Thu Jan 13 2022 17:05:00'::DATE, 'Fri Jan 14 2022 17:05:00'::DATE,'Sat Jan 15 2022 17:05:00'::DATE,'Sun Jan 16 2022 17:05:00'::DATE,
+'Mon Jan 17 2022 17:05:00'::DATE,'Tue Jan 18 2022 17:05:00'::DATE,'Wed Jan 19 2022 17:05:00'::DATE, 'Thu Jan 20 2022 17:05:00'::DATE, 'Fri Jan 21 2022 17:05:00'::DATE,'Sat Jan 22 2022 17:05:00'::DATE,'Sun Jan 23 2022 17:05:00'::DATE]);
+
+
+INSERT INTO train_route("id","departureTime","arrivalTime","trainId","dates")
+VALUES (2,'Mon Dec 13 2021 11:20:00','Mon Dec 13 2021 21:10:00',101, 
+ARRAY['Wed Jan 12 2022 17:05:00'::DATE, 'Thu Jan 13 2022 17:05:00'::DATE, 'Fri Jan 14 2022 17:05:00'::DATE,'Sat Jan 15 2022 17:05:00'::DATE,'Sun Jan 16 2022 17:05:00'::DATE,
+'Mon Jan 17 2022 17:05:00'::DATE,'Tue Jan 18 2022 17:05:00'::DATE,'Wed Jan 19 2022 17:05:00'::DATE, 'Thu Jan 20 2022 17:05:00'::DATE, 'Fri Jan 21 2022 17:05:00'::DATE,'Sat Jan 22 2022 17:05:00'::DATE,'Sun Jan 23 2022 17:05:00'::DATE]);
+
+INSERT INTO train_route("id","departureTime","arrivalTime","trainId","dates")
+VALUES (3,'Mon Dec 13 2021 15:10:00','Mon Dec 13 2021 23:59:00',102, 
+ARRAY['Wed Jan 12 2022 17:05:00'::DATE, 'Thu Jan 13 2022 17:05:00'::DATE, 'Fri Jan 14 2022 17:05:00'::DATE,'Sat Jan 15 2022 17:05:00'::DATE,'Sun Jan 16 2022 17:05:00'::DATE,
+'Mon Jan 17 2022 17:05:00'::DATE,'Tue Jan 18 2022 17:05:00'::DATE,'Wed Jan 19 2022 17:05:00'::DATE, 'Thu Jan 20 2022 17:05:00'::DATE, 'Fri Jan 21 2022 17:05:00'::DATE,'Sat Jan 22 2022 17:05:00'::DATE,'Sun Jan 23 2022 17:05:00'::DATE]);
+
+
+INSERT INTO station("name")
+VALUES ('Zagreb');
+INSERT INTO station("name")
+VALUES ('Split');
+INSERT INTO station("name")
+VALUES ('Ploče');
+
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (11,'Mon Jan 31 2022 06:05:00','Mon Jan 31 2022 12:15:00',102,1,'Zagreb','Split');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (12,'Mon Jan 17 2022 11:20:00','Mon Jan 17 2022 17:30:00',120,2,'Zagreb','Split');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (13,'Mon Jan 17 2022 15:10:00','Mon Jan 17 2022 21:00:00',120,3,'Zagreb','Split');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (14,'Mon Dec 13 2021 06:05:00','Mon Dec 13 2021 15:55:00',180,1,'Zagreb','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (15,'Mon Dec 13 2021 11:20:00','Mon Dec 13 2021 21:10:00',194,2,'Zagreb','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (16,'Mon Dec 13 2021 15:10:00','Mon Dec 13 2021 23:59:00',192,3,'Zagreb','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (17,'Mon Dec 13 2021 12:15:00','Mon Dec 13 2021 15:55:00',92,1,'Split','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (18,'Mon Dec 13 2021 17:30:00','Mon Dec 13 2021 21:10:00',95,2,'Split','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (19,'Mon Dec 13 2021 21:00:00','Mon Dec 13 2021 23:59:00',90,3,'Split','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (20,'Mon Dec 13 2021 15:55:00','Mon Dec 13 2021 15:55:00',0,1,'Ploče','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (21,'Mon Dec 13 2021 21:35:00','Mon Dec 13 2021 21:35:00',0,2,'Ploče','Ploče');
+
+INSERT INTO journey ("id","departureTime","arrivalTime","price","routeId","departureStationName","arrivalStationName")
+VALUES (22,'Mon Dec 13 2021 23:59:00','Mon Dec 13 2021 23:59:00',0,3,'Ploče','Ploče');
+
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(1,'Zagreb');
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(1,'Split');
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(1,'Ploče');
+
+
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(2,'Zagreb');
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(2,'Split');
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(2,'Ploče');
+
+
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(3,'Zagreb');
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(3,'Split');
+INSERT INTO train_route_stations_station ("trainRouteId","stationName")
+VALUES(3,'Ploče');

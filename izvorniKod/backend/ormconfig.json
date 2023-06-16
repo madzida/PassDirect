@@ -1,0 +1,11 @@
+{
+    "username": "postgres",
+    "password": "bazepodataka",
+    "host": "localhost",
+    "database": "passdirect-test",
+    "port": 5432,
+    "type": "postgres",
+    "entities": ["src/models/*.*"],
+    "synchronize": true,
+    "logging": false
+  }

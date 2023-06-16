@@ -1,0 +1,519 @@
+STVARNI VOZNI RED:
+- Vozni red se ponavlja na dnevnoj bazi uz moguća kašnjenja!
+- - - 
+ZAGREB 
+	06:05 Vlak01
+	11:20 Vlak02
+	15:10 Vlak03
+- - - 
+SPLIT
+	12:15 Vlak01
+	17:30 Vlak02
+	21:00 Vlak03
+- - - 
+PLOČE
+	15:55 Vlak01
+	21:10 Vlak02
+	23:59 Vlak03
+- - - 
+
+MOCK ISČITANJA SENZORA:
+
+DAN 1
+	vlak1
+		1
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T05:05:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "1",
+				"speed": 75,
+				"time": "Thu Jan 13 2022 06:05:00",
+				"measurements": {
+					"1": [50,50],
+					"2": [25,24],
+					"3": [5,15]
+				}
+			}
+		}
+
+		2
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T11:18:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "1",
+				"speed": 65,
+				"time": "Thu Jan 13 2022 12:18:00",
+				"measurements": {
+					"1": [18,19],
+					"2": [9,10],
+					"3": [10,50]
+				}
+			}
+		}
+
+		3
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T15:08:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "1",
+				"speed": 70,
+				"time": "Thu Jan 13 2022 16:08:00",
+				"measurements": {
+					"1": [0,0],
+					"2": [0,0],
+					"3": [14,15]
+				}
+			}
+		}
+
+	vlak2
+		4
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T10:20:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "2",
+				"speed": 80,
+				"time": "Thu Jan 13 2022 11:20:00",
+				"measurements": {
+					"1": [30,31],
+					"2": [49,5],
+					"3": [50,50],
+					"4": [25,20]
+				}
+			}
+		}
+
+		5
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T16:33:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "2",
+				"speed": 65,
+				"time": "Thu Jan 13 2022 17:33:00",
+				"measurements": {
+					"1": [40,50],
+					"2": [20,20],
+					"3": [31,30],
+					"4": [5,10]
+				}
+			}
+		}
+
+		6
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T20:10:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "2",
+				"speed": 70,
+				"time": "Thu Jan 13 2022 21:10:00",
+				"measurements": {
+					"1": [20,25],
+					"2": [15,14],
+					"3": [50,10],
+					"4": [0,0]
+				}
+			}
+		}
+
+	vlak3
+		7
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T14:10:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "3",
+				"speed": 75,
+				"time": "Thu Jan 13 2022 15:10:00",
+				"measurements": {
+					"1": [7,0],
+					"2": [50,49],
+					"3": [50,50],
+					"4": [35,36],
+					"5": [25,26]
+				}
+			}
+		}
+
+		8
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T20:05:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "3",
+				"speed": 55,
+				"time": "Thu Jan 13 2022 21:05:00",
+				"measurements": {
+					"1": [17,20],
+					"2": [41,41],
+					"3": [13,49],
+					"4": [5,30],
+					"5": [26,26]
+				}
+			}
+		}
+
+		9
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-13T22:59:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "3",
+				"speed": 45,
+				"time": "Thu Jan 13 2022 23:59:00",
+				"measurements": {
+					"1": [0,0],
+					"2": [0,49],
+					"3": [0,50],
+					"4": [50,12],
+					"5": [25,25]
+				}
+			}
+		}
+
+DAN 2
+		vlak1
+		1
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T05:10:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "1",
+				"speed": 75,
+				"time": "Fri Jan 14 2022 06:10:00",
+				"measurements": {
+					"1": [0,0],
+					"2": [5,10],
+					"3": [5,5]
+				}
+			}
+		}
+
+		2
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T11:15:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "1",
+				"speed": 60,
+				"time": "Fri Jan 14 2022 12:15:00",
+				"measurements": {
+					"1": [8,7],
+					"2": [19,20],
+					"3": [40,10]
+				}
+			}
+		}
+
+		3
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T14:55:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "1",
+				"speed": 60,
+				"time": "Fri Jan 14 2022 15:55:00",
+				"measurements": {
+					"1": [0,0],
+					"2": [0,0],
+					"3": [0,0]
+				}
+			}
+		}
+
+	vlak2
+		4
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T10:30:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "2",
+				"speed": 75,
+				"time": "Fri Jan 14 2022 11:30:00",
+				"measurements": {
+					"1": [46,47],
+					"2": [0,42],
+					"3": [10,9],
+					"4": [25,25]
+				}
+			}
+		}
+
+		5
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T16:40:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "2",
+				"speed": 55,
+				"time": "Fri Jan 14 2022 17:40:00",
+				"measurements": {
+					"1": [49,50],
+					"2": [20,20],
+					"3": [31,30],
+					"4": [26,27]
+				}
+			}
+		}
+
+		6
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T20:20:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "2",
+				"speed": 40,
+				"time": "Fri Jan 14 2022 21:20:00",
+				"measurements": {
+					"1": [40,7],
+					"2": [15,15],
+					"3": [50,10],
+					"4": [0,0]
+				}
+			}
+		}
+
+	vlak3
+		7
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T14:10:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "3",
+				"speed": 80,
+				"time": "Fri Jan 14 2022 15:10:00",
+				"measurements": {
+					"1": [17,40],
+					"2": [20,21],
+					"3": [50,50],
+					"4": [28,33],
+					"5": [25,26]
+				}
+			}
+		}
+
+		8
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T20:02:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "3",
+				"speed": 75,
+				"time": "Fri Jan 14 2022 21:02:00",
+				"measurements": {
+					"1": [19,20],
+					"2": [40,41],
+					"3": [50,50],
+					"4": [5,30],
+					"5": [7,6]
+				}
+			}
+		}
+
+		9
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T22:59:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "3",
+				"speed": 65,
+				"time": "Fri Jan 14 2022 23:59:00",
+				"measurements": {
+					"1": [0,0],
+					"2": [48,49],
+					"3": [0,1],
+					"4": [50,12],
+					"5": [25,25]
+				}
+			}
+		}
+
+
+DAN 3
+		vlak1
+		1
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T05:05:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "1",
+				"speed": 75,
+				"time": "Sat Jan 15 2022 06:05:00",
+				"measurements": {
+					"1": [45,43],
+					"2": [28,31],
+					"3": [50,48]
+				}
+			}
+		}
+
+		2
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T11:15:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "1",
+				"speed": 50,
+				"time": "Sat Jan 15 2022 12:15:00",
+				"measurements": {
+					"1": [20,19],
+					"2": [0,0],
+					"3": [50,50]
+				}
+			}
+		}
+
+		3
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T14:55:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "1",
+				"speed": 70,
+				"time": "Sat Jan 15 2022 15:55:00",
+				"measurements": {
+					"1": [0,0],
+					"2": [0,0],
+					"3": [0,1]
+				}
+			}
+		}
+
+	vlak2
+		4
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T10:25:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "2",
+				"speed": 65,
+				"time": "Sat Jan 15 2022 11:25:00",
+				"measurements": {
+					"1": [30,27],
+					"2": [49,50],
+					"3": [50,50],
+					"4": [50,50]
+				}
+			}
+		}
+
+		5
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T16:50:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "2",
+				"speed": 60,
+				"time": "Sat Jan 15 2022 17:50:00",
+				"measurements": {
+					"1": [40,40],
+					"2": [20,20],
+					"3": [31,30],
+					"4": [45,44]
+				}
+			}
+		}
+
+		6
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T20:30:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "2",
+				"speed": 65,
+				"time": "Sat Jan 15 2022 21:30:00",
+				"measurements": {
+					"1": [24,25],
+					"2": [15,14],
+					"3": [5,10],
+					"4": [0,0]
+				}
+			}
+		}
+
+	vlak3
+		7
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-14T15:10:05Z",
+			"data": {	
+				"stationName": "Zagreb",
+				"routeId": "3",
+				"speed": 70,
+				"time": "Sat Jan 15 2022 15:10:00",
+				"measurements": {
+					"1": [17,17],
+					"2": [50,49],
+					"3": [39,40],
+					"4": [35,36],
+					"5": [50,8]
+				}
+			}
+		}
+
+		8
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T20:00:05Z",
+			"data": {	
+				"stationName": "Split",
+				"routeId": "3",
+				"speed": 60,
+				"time": "Sat Jan 15 2022 21:00:00",
+				"measurements": {
+					"1": [17,17],
+					"2": [41,41],
+					"3": [49,49],
+					"4": [30,30],
+					"5": [26,26]
+				}
+			}
+		}
+
+		9
+		{
+			"path": "/api/sensor",
+			"postAt": "2022-01-15T22:59:05Z",
+			"data": {	
+				"stationName": "Ploče",
+				"routeId": "3",
+				"speed": 20,
+				"time": "Sat Jan 15 2022 23:59:00",
+				"measurements": {
+					"1": [0,0],
+					"2": [0,0],
+					"3": [1,2],
+					"4": [12,12],
+					"5": [25,25]
+				}
+			}
+		}

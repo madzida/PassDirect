@@ -1,0 +1,94 @@
+Dnevnik sastajanja
+ 
+1. sastanak
+• Datum: 07.10.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Razgovor o poznavanju tehnologija
+– Dogovor o tutorialima i upute za okviran način rada
+
+2. sastanak
+• Datum: 16.10.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Komentiranje dobivene teme i razjašnjavanje nejasnoća
+– Upoznavanje s GitLab-om i LaTex-om
+
+3. sastanak
+• Datum: 23.10.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Dogovorene razvojne okoline i tehnologije
+– Rasprava o izradi generičkih sposobnosti
+– Dogovor za početak razvijanje aplikacija 
+– Dogovoren početak rada na predlošku dokumentacije i izgledu stranice
+
+4. sastanak
+• Datum: 30.10.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Pregled prethodno zadanih zadataka
+– Određen kostur aplikacije
+– Završene početne verzije UC-ova i dijagrama
+– Početak dizajna baze podataka
+
+5. sastanak
+• Datum: 06.11.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Dorađivanje dokumentacije
+– Modeliranje entiteta i dizajn kontrolera
+– Dorađivanje dosadašnjeg front-end-a
+
+6. sastanak
+• Datum: 14.11.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Provjere na front-endu
+– Pravljenje arhitekture i dizajna sustava u dokumentaciji
+– Daljnji rad na back-endu, kontrolerima i modelima
+
+7. sastanak
+• Datum: 16.11.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Završne promjene na dokumentaciji i bazi podataka
+– Povezivanje back-enda i front-enda
+– Dizanje baze na Heroku i deployanje aplikacije
+
+8. sastanak
+• Datum: 6.12.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Napravljen pregled programske podrške projekta
+– Podijela projektnog tima na backend i frontend
+– Frontend: fokus na radu funkcionalnog prikaza voznog reda i kupnje karata
+– Backend: uređivanje ruta i rad na kontrolerima 
+
+9. sastanak
+• Datum: 14.12.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Napravljen pregled odrađenih poslova s prošlog sastanka
+– Povezivanje frontenda i backenda
+– Dorađivanje Admin stranica na frontendu
+– Rad na implementaciji senzora
+– Nastavak rada na UML dijagramima
+
+10. sastanak
+• Datum: 18.12.2021.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+– Privođenje kraju posla na frontendu, dorađivanje izgleda
+– Rad na implementaciji kontrolera za senzore i načinu dohvata podataka senzora
+– Rad na dokumentaciji postupno s gradivom
+– Provjera konzistentnosti i uređivanje modela na backendu
+
+11. sastanak
+• Datum: 12.1.2022.
+• Prisustvovali: T. Pavković, M. Vučinić, A. Vinković, K. Pavlović, F. Cindrić, M. Galić, I. Hajpek
+• Teme sastanka:
+-Dorađivanje pojedinosti vezanih uz senzore
+-Unit testing
+-Izrada podataka za punjenje baze podataka
+-Provjera i testiranje rada aplikacije
